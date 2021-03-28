@@ -42,6 +42,7 @@ func (vc *ViewController) Inject(responder *web.Responder,
 //registry.Route("/search/:type", `search.search(type, *)`)
 //registry.Route("/search", `search.search`)
 
+// Get godoc
 // Get Response for Search matching :type param based on query q
 // @Summary Searches for requested items
 // @Tags  Search Products Category
