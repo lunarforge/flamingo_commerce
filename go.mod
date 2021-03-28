@@ -1,4 +1,4 @@
-module flamingo.me/flamingo-commerce/v3
+module github.com/lunarforge/flamingo_commerce
 
 go 1.13
 
