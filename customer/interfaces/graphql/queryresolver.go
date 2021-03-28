@@ -6,8 +6,8 @@ import (
 
 	"flamingo.me/flamingo/v3/framework/web"
 
-	"flamingo.me/flamingo-commerce/v3/customer/application"
-	"flamingo.me/flamingo-commerce/v3/customer/interfaces/graphql/dtocustomer"
+	"github.com/lunarforge/flamingo_commerce/customer/application"
+	"github.com/lunarforge/flamingo_commerce/customer/interfaces/graphql/dtocustomer"
 )
 
 type (

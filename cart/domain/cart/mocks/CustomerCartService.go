@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	cart "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
+	cart "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
 	auth "flamingo.me/flamingo/v3/core/auth"
 
 	mock "github.com/stretchr/testify/mock"

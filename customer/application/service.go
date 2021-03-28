@@ -7,7 +7,7 @@ import (
 	"flamingo.me/flamingo/v3/core/auth"
 	"flamingo.me/flamingo/v3/framework/web"
 
-	"flamingo.me/flamingo-commerce/v3/customer/domain"
+	"github.com/lunarforge/flamingo_commerce/customer/domain"
 )
 
 var (

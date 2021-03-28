@@ -1,6 +1,6 @@
 package searchdto
 
-import searchdomain "flamingo.me/flamingo-commerce/v3/search/domain"
+import searchdomain "github.com/lunarforge/flamingo_commerce/search/domain"
 
 // CommerceSearchFacet interface for facets
 type CommerceSearchFacet interface {

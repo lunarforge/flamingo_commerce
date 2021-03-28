@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"net/url"
 
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
-	"flamingo.me/flamingo-commerce/v3/payment/domain"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
+	"github.com/lunarforge/flamingo_commerce/payment/domain"
 	"flamingo.me/flamingo/v3/framework/web"
 )
 

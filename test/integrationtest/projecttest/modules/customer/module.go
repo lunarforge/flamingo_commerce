@@ -3,7 +3,7 @@ package customer
 import (
 	"flamingo.me/dingo"
 
-	"flamingo.me/flamingo-commerce/v3/customer/domain"
+	"github.com/lunarforge/flamingo_commerce/customer/domain"
 )
 
 type (

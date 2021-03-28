@@ -5,11 +5,11 @@ import (
 	"fmt"
 
 	// cart type is referenced in swag comment and requires empty import
-	_ "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
+	_ "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
 	// domain type is referenced in swag comment and requires empty import
-	_ "flamingo.me/flamingo-commerce/v3/payment/domain"
+	_ "github.com/lunarforge/flamingo_commerce/payment/domain"
 
-	"flamingo.me/flamingo-commerce/v3/checkout/application"
+	"github.com/lunarforge/flamingo_commerce/checkout/application"
 
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/flamingo/v3/framework/web"

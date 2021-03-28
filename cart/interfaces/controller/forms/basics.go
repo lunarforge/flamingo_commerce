@@ -1,8 +1,8 @@
 package forms
 
 import (
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/customer/domain"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/customer/domain"
 )
 
 type (

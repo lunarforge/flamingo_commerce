@@ -7,7 +7,7 @@ import (
 
 	"gopkg.in/go-playground/assert.v1"
 
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest"
 )
 
 func Test_Cart_AddToCart(t *testing.T) {

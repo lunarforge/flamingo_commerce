@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest"
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest/projecttest/helper"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest/projecttest/helper"
 )
 
 func Test_CommerceProductSearchFacets(t *testing.T) {

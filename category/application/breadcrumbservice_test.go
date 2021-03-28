@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/breadcrumbs"
-	"flamingo.me/flamingo-commerce/v3/category/application"
-	"flamingo.me/flamingo-commerce/v3/category/domain"
+	"github.com/lunarforge/flamingo_commerce/breadcrumbs"
+	"github.com/lunarforge/flamingo_commerce/category/application"
+	"github.com/lunarforge/flamingo_commerce/category/domain"
 	"flamingo.me/flamingo/v3/framework/web"
 	"github.com/stretchr/testify/assert"
 )

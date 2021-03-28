@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/url"
 
-	"flamingo.me/flamingo-commerce/v3/breadcrumbs"
-	"flamingo.me/flamingo-commerce/v3/category/domain"
+	"github.com/lunarforge/flamingo_commerce/breadcrumbs"
+	"github.com/lunarforge/flamingo_commerce/category/domain"
 	"flamingo.me/flamingo/v3/framework/web"
 )
 

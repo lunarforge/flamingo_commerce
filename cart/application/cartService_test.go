@@ -10,19 +10,19 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"flamingo.me/flamingo-commerce/v3/cart/infrastructure"
+	"github.com/lunarforge/flamingo_commerce/cart/infrastructure"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/events"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/validation"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/events"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/validation"
 
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/flamingo/v3/framework/web"
 
-	cartApplication "flamingo.me/flamingo-commerce/v3/cart/application"
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	productDomain "flamingo.me/flamingo-commerce/v3/product/domain"
+	cartApplication "github.com/lunarforge/flamingo_commerce/cart/application"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	productDomain "github.com/lunarforge/flamingo_commerce/product/domain"
 )
 
 func TestCartService_DeleteSavedSessionGuestCartID(t *testing.T) {

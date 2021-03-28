@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	priceDomain "flamingo.me/flamingo-commerce/v3/price/domain"
+	priceDomain "github.com/lunarforge/flamingo_commerce/price/domain"
 )
 
 type (

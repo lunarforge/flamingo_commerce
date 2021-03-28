@@ -3,10 +3,10 @@ package templatefunctions
 import (
 	"context"
 
-	"flamingo.me/flamingo-commerce/v3/cart/application"
+	"github.com/lunarforge/flamingo_commerce/cart/application"
 	"flamingo.me/flamingo/v3/framework/web"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
 )
 
 type (

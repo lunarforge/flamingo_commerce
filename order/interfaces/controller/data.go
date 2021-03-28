@@ -6,7 +6,7 @@ import (
 	"flamingo.me/flamingo/v3/core/auth"
 	"flamingo.me/flamingo/v3/framework/web"
 
-	"flamingo.me/flamingo-commerce/v3/order/domain"
+	"github.com/lunarforge/flamingo_commerce/order/domain"
 )
 
 type (

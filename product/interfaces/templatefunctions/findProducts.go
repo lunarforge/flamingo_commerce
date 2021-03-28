@@ -2,7 +2,7 @@ package templatefunctions
 
 import (
 	"context"
-	"flamingo.me/flamingo-commerce/v3/search/utils"
+	"github.com/lunarforge/flamingo_commerce/search/utils"
 	"log"
 	"strconv"
 	"strings"
@@ -11,10 +11,10 @@ import (
 
 	"flamingo.me/flamingo/v3/framework/web"
 
-	"flamingo.me/flamingo-commerce/v3/search/domain"
+	"github.com/lunarforge/flamingo_commerce/search/domain"
 
-	"flamingo.me/flamingo-commerce/v3/product/application"
-	searchApplication "flamingo.me/flamingo-commerce/v3/search/application"
+	"github.com/lunarforge/flamingo_commerce/product/application"
+	searchApplication "github.com/lunarforge/flamingo_commerce/search/application"
 )
 
 type (

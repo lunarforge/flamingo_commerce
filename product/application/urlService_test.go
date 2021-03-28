@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"flamingo.me/flamingo-commerce/v3/product/application"
-	"flamingo.me/flamingo-commerce/v3/product/domain"
+	"github.com/lunarforge/flamingo_commerce/product/application"
+	"github.com/lunarforge/flamingo_commerce/product/domain"
 )
 
 func TestURLService_GetURLParams(t *testing.T) {

@@ -2,8 +2,8 @@ package price
 
 import (
 	"flamingo.me/dingo"
-	pricegraphql "flamingo.me/flamingo-commerce/v3/price/interfaces/graphql"
-	"flamingo.me/flamingo-commerce/v3/price/interfaces/templatefunctions"
+	pricegraphql "github.com/lunarforge/flamingo_commerce/price/interfaces/graphql"
+	"github.com/lunarforge/flamingo_commerce/price/interfaces/templatefunctions"
 	"flamingo.me/flamingo/v3/core/locale"
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/graphql"

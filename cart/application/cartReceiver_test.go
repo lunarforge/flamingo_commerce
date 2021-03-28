@@ -15,13 +15,13 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	cartApplication "flamingo.me/flamingo-commerce/v3/cart/application"
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/events"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
-	cartInfrastructure "flamingo.me/flamingo-commerce/v3/cart/infrastructure"
-	productDomain "flamingo.me/flamingo-commerce/v3/product/domain"
+	cartApplication "github.com/lunarforge/flamingo_commerce/cart/application"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/events"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
+	cartInfrastructure "github.com/lunarforge/flamingo_commerce/cart/infrastructure"
+	productDomain "github.com/lunarforge/flamingo_commerce/product/domain"
 )
 
 type (

@@ -3,7 +3,7 @@ package price_test
 import (
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/price"
+	"github.com/lunarforge/flamingo_commerce/price"
 	"flamingo.me/flamingo/v3/framework/config"
 )
 

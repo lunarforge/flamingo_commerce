@@ -2,7 +2,7 @@ package infrastructure
 
 import (
 	"context"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"math/rand"
 	"strconv"

@@ -5,8 +5,8 @@ import (
 
 	"flamingo.me/flamingo/v3/core/auth"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	price "flamingo.me/flamingo-commerce/v3/price/domain"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	price "github.com/lunarforge/flamingo_commerce/price/domain"
 )
 
 type (

@@ -17,8 +17,8 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/process"
-	"flamingo.me/flamingo-commerce/v3/checkout/infrastructure/contextstore"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/process"
+	"github.com/lunarforge/flamingo_commerce/checkout/infrastructure/contextstore"
 )
 
 const (

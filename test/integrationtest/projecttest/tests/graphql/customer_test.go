@@ -8,8 +8,8 @@ import (
 
 	"github.com/gavv/httpexpect/v2"
 
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest"
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest/projecttest/helper"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest/projecttest/helper"
 )
 
 func Test_CommerceCustomerStatus(t *testing.T) {

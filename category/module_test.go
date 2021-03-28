@@ -3,7 +3,7 @@ package category_test
 import (
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/category"
+	"github.com/lunarforge/flamingo_commerce/category"
 	"flamingo.me/flamingo/v3/framework/config"
 )
 

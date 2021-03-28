@@ -2,9 +2,9 @@ package cart
 
 import (
 	"flamingo.me/dingo"
-	"flamingo.me/flamingo-commerce/v3/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/validation"
-	"flamingo.me/flamingo-commerce/v3/cart/infrastructure"
+	"github.com/lunarforge/flamingo_commerce/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/validation"
+	"github.com/lunarforge/flamingo_commerce/cart/infrastructure"
 )
 
 type (

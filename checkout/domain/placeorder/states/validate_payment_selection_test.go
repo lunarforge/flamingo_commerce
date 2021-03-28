@@ -9,11 +9,11 @@ import (
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"github.com/stretchr/testify/assert"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/validation"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/process"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/states"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/validation"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/process"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/states"
 )
 
 type paymentSelectionValidator struct {

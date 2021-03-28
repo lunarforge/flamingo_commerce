@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/process"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/states"
-	"flamingo.me/flamingo-commerce/v3/payment/application"
-	paymentDomain "flamingo.me/flamingo-commerce/v3/payment/domain"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/process"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/states"
+	"github.com/lunarforge/flamingo_commerce/payment/application"
+	paymentDomain "github.com/lunarforge/flamingo_commerce/payment/domain"
 )
 
 const (

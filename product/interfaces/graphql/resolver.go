@@ -2,12 +2,12 @@ package graphql
 
 import (
 	"context"
-	productApplication "flamingo.me/flamingo-commerce/v3/product/application"
-	"flamingo.me/flamingo-commerce/v3/product/domain"
-	productDto "flamingo.me/flamingo-commerce/v3/product/interfaces/graphql/product/dto"
-	"flamingo.me/flamingo-commerce/v3/search/application"
-	searchDomain "flamingo.me/flamingo-commerce/v3/search/domain"
-	"flamingo.me/flamingo-commerce/v3/search/interfaces/graphql/searchdto"
+	productApplication "github.com/lunarforge/flamingo_commerce/product/application"
+	"github.com/lunarforge/flamingo_commerce/product/domain"
+	productDto "github.com/lunarforge/flamingo_commerce/product/interfaces/graphql/product/dto"
+	"github.com/lunarforge/flamingo_commerce/search/application"
+	searchDomain "github.com/lunarforge/flamingo_commerce/search/domain"
+	"github.com/lunarforge/flamingo_commerce/search/interfaces/graphql/searchdto"
 )
 
 // CommerceProductQueryResolver resolves graphql product queries

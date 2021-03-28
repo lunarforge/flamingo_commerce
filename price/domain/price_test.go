@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/price/domain"
+	"github.com/lunarforge/flamingo_commerce/price/domain"
 	"github.com/stretchr/testify/assert"
 )
 

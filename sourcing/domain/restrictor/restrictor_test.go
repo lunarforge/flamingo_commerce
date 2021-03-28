@@ -5,12 +5,12 @@ import (
 	"errors"
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/validation"
-	"flamingo.me/flamingo-commerce/v3/product/domain"
-	productDomain "flamingo.me/flamingo-commerce/v3/product/domain"
-	sourcingApplication "flamingo.me/flamingo-commerce/v3/sourcing/application"
-	sourcingDomain "flamingo.me/flamingo-commerce/v3/sourcing/domain"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/validation"
+	"github.com/lunarforge/flamingo_commerce/product/domain"
+	productDomain "github.com/lunarforge/flamingo_commerce/product/domain"
+	sourcingApplication "github.com/lunarforge/flamingo_commerce/sourcing/application"
+	sourcingDomain "github.com/lunarforge/flamingo_commerce/sourcing/domain"
 
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/flamingo/v3/framework/web"

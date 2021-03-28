@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest/projecttest/helper"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest/projecttest/helper"
 )
 
 var FlamingoURL string

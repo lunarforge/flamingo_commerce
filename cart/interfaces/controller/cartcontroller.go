@@ -5,11 +5,11 @@ import (
 	"encoding/gob"
 	"strconv"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/validation"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/validation"
 
-	"flamingo.me/flamingo-commerce/v3/cart/application"
-	productDomain "flamingo.me/flamingo-commerce/v3/product/domain"
+	"github.com/lunarforge/flamingo_commerce/cart/application"
+	productDomain "github.com/lunarforge/flamingo_commerce/product/domain"
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/flamingo/v3/framework/web"
 )

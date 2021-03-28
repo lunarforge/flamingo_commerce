@@ -3,7 +3,7 @@ package templatefunctions
 import (
 	"context"
 
-	"flamingo.me/flamingo-commerce/v3/w3cdatalayer/application"
+	"github.com/lunarforge/flamingo_commerce/w3cdatalayer/application"
 )
 
 type (

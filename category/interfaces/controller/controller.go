@@ -5,11 +5,11 @@ import (
 
 	"flamingo.me/flamingo/v3/framework/web"
 
-	"flamingo.me/flamingo-commerce/v3/category/application"
-	"flamingo.me/flamingo-commerce/v3/category/domain"
-	productApplication "flamingo.me/flamingo-commerce/v3/product/application"
-	searchDomain "flamingo.me/flamingo-commerce/v3/search/domain"
-	"flamingo.me/flamingo-commerce/v3/search/utils"
+	"github.com/lunarforge/flamingo_commerce/category/application"
+	"github.com/lunarforge/flamingo_commerce/category/domain"
+	productApplication "github.com/lunarforge/flamingo_commerce/product/application"
+	searchDomain "github.com/lunarforge/flamingo_commerce/search/domain"
+	"github.com/lunarforge/flamingo_commerce/search/utils"
 )
 
 type (

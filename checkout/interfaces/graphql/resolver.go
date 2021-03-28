@@ -3,10 +3,10 @@ package graphql
 import (
 	"context"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	graphqlDto "flamingo.me/flamingo-commerce/v3/cart/interfaces/graphql/dto"
-	"flamingo.me/flamingo-commerce/v3/checkout/application/placeorder"
-	"flamingo.me/flamingo-commerce/v3/checkout/interfaces/graphql/dto"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	graphqlDto "github.com/lunarforge/flamingo_commerce/cart/interfaces/graphql/dto"
+	"github.com/lunarforge/flamingo_commerce/checkout/application/placeorder"
+	"github.com/lunarforge/flamingo_commerce/checkout/interfaces/graphql/dto"
 )
 
 // CommerceCheckoutQueryResolver resolves graphql checkout queries

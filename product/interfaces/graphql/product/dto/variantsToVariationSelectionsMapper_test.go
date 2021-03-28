@@ -3,8 +3,8 @@ package graphqlproductdto
 import (
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/product/domain"
-	"flamingo.me/flamingo-commerce/v3/product/infrastructure/fake"
+	"github.com/lunarforge/flamingo_commerce/product/domain"
+	"github.com/lunarforge/flamingo_commerce/product/infrastructure/fake"
 	"github.com/stretchr/testify/assert"
 )
 

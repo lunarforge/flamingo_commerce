@@ -5,7 +5,7 @@ import (
 
 	"flamingo.me/flamingo/v3/framework/flamingo"
 
-	"flamingo.me/flamingo-commerce/v3/category/domain"
+	"github.com/lunarforge/flamingo_commerce/category/domain"
 )
 
 //go:generate go run github.com/go-bindata/go-bindata/v3/go-bindata -nometadata -pkg fake -prefix mock/ mock/

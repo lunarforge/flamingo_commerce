@@ -2,11 +2,11 @@ package templatefunctions
 
 import (
 	"context"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
 	"flamingo.me/flamingo/v3/framework/web"
 
-	"flamingo.me/flamingo-commerce/v3/cart/application"
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/application"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
 	"flamingo.me/flamingo/v3/framework/flamingo"
 )
 

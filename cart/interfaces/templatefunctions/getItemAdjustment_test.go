@@ -8,9 +8,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
 
-	"flamingo.me/flamingo-commerce/v3/cart/application"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/validation"
+	"github.com/lunarforge/flamingo_commerce/cart/application"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/validation"
 )
 
 func TestGetQuantityAdjustmentDeletedItemsMessages_Func(t *testing.T) {

@@ -1,9 +1,9 @@
 package graphql
 
 import (
-	"flamingo.me/flamingo-commerce/v3/checkout/application"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/process"
-	"flamingo.me/flamingo-commerce/v3/checkout/interfaces/graphql/dto"
+	"github.com/lunarforge/flamingo_commerce/checkout/application"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/process"
+	"github.com/lunarforge/flamingo_commerce/checkout/interfaces/graphql/dto"
 	"flamingo.me/graphql"
 )
 

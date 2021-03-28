@@ -16,9 +16,9 @@ import (
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/flamingo/v3/framework/opencensus"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/validation"
-	"flamingo.me/flamingo-commerce/v3/checkout/application"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/validation"
+	"github.com/lunarforge/flamingo_commerce/checkout/application"
 )
 
 type (

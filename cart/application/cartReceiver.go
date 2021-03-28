@@ -9,10 +9,10 @@ import (
 
 	"flamingo.me/flamingo/v3/framework/flamingo"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	"flamingo.me/flamingo-commerce/v3/customer/application"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	"github.com/lunarforge/flamingo_commerce/customer/application"
 )
 
 type (

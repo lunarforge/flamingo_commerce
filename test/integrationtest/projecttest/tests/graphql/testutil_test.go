@@ -15,7 +15,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest/projecttest/helper"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest/projecttest/helper"
 )
 
 func loadGraphQL(t *testing.T, name string, replacements map[string]string) string {

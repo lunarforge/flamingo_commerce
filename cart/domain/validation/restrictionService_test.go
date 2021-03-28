@@ -7,11 +7,11 @@ import (
 	"reflect"
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/validation"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/validation"
 	"flamingo.me/flamingo/v3/framework/web"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/product/domain"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/product/domain"
 )
 
 var _ validation.MaxQuantityRestrictor = (*MockRestrictor)(nil)

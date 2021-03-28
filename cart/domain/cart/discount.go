@@ -3,7 +3,7 @@ package cart
 import (
 	"sort"
 
-	"flamingo.me/flamingo-commerce/v3/price/domain"
+	"github.com/lunarforge/flamingo_commerce/price/domain"
 )
 
 type (

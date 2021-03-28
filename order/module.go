@@ -2,9 +2,9 @@ package order
 
 import (
 	"flamingo.me/dingo"
-	"flamingo.me/flamingo-commerce/v3/order/domain"
-	"flamingo.me/flamingo-commerce/v3/order/infrastructure/fake"
-	"flamingo.me/flamingo-commerce/v3/order/interfaces/controller"
+	"github.com/lunarforge/flamingo_commerce/order/domain"
+	"github.com/lunarforge/flamingo_commerce/order/infrastructure/fake"
+	"github.com/lunarforge/flamingo_commerce/order/interfaces/controller"
 	"flamingo.me/flamingo/v3/framework/web"
 )
 

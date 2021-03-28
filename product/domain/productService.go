@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	searchDomain "flamingo.me/flamingo-commerce/v3/search/domain"
+	searchDomain "github.com/lunarforge/flamingo_commerce/search/domain"
 )
 
 type (

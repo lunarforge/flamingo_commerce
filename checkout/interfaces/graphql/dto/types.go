@@ -1,9 +1,9 @@
 package dto
 
 import (
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
-	"flamingo.me/flamingo-commerce/v3/cart/interfaces/graphql/dto"
-	"flamingo.me/flamingo-commerce/v3/checkout/application"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
+	"github.com/lunarforge/flamingo_commerce/cart/interfaces/graphql/dto"
+	"github.com/lunarforge/flamingo_commerce/checkout/application"
 )
 
 type (

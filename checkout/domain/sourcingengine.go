@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"math"
 
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	"flamingo.me/flamingo-commerce/v3/product/domain"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	"github.com/lunarforge/flamingo_commerce/product/domain"
 
-	"flamingo.me/flamingo-commerce/v3/cart/application"
+	"github.com/lunarforge/flamingo_commerce/cart/application"
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/flamingo/v3/framework/web"
 	"github.com/pkg/errors"

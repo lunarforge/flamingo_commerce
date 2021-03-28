@@ -14,7 +14,7 @@ import (
 	"github.com/testcontainers/testcontainers-go/wait"
 	"go.uber.org/goleak"
 
-	"flamingo.me/flamingo-commerce/v3/checkout/infrastructure/locker"
+	"github.com/lunarforge/flamingo_commerce/checkout/infrastructure/locker"
 )
 
 func startUp(t *testing.T) *tempredis.Server {

@@ -9,7 +9,7 @@ import (
 	"flamingo.me/graphql"
 	"github.com/gavv/httpexpect/v2"
 
-	fakeCustomer "flamingo.me/flamingo-commerce/v3/test/integrationtest/projecttest/modules/customer"
+	fakeCustomer "github.com/lunarforge/flamingo_commerce/test/integrationtest/projecttest/modules/customer"
 	"flamingo.me/flamingo/v3"
 	"flamingo.me/flamingo/v3/core/auth"
 	fakeAuth "flamingo.me/flamingo/v3/core/auth/fake"
@@ -19,10 +19,10 @@ import (
 	"flamingo.me/flamingo/v3/framework/cmd"
 	"flamingo.me/flamingo/v3/framework/web/filter"
 
-	"flamingo.me/flamingo-commerce/v3/customer"
-	integrationCart "flamingo.me/flamingo-commerce/v3/test/integrationtest/projecttest/modules/cart"
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest/projecttest/modules/payment"
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest/projecttest/modules/placeorder"
+	"github.com/lunarforge/flamingo_commerce/customer"
+	integrationCart "github.com/lunarforge/flamingo_commerce/test/integrationtest/projecttest/modules/cart"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest/projecttest/modules/payment"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest/projecttest/modules/placeorder"
 
 	"flamingo.me/dingo"
 
@@ -34,17 +34,17 @@ import (
 	"flamingo.me/flamingo/v3/framework/opencensus"
 	"flamingo.me/flamingo/v3/framework/prefixrouter"
 
-	"flamingo.me/flamingo-commerce/v3/breadcrumbs"
-	"flamingo.me/flamingo-commerce/v3/cart"
-	"flamingo.me/flamingo-commerce/v3/category"
-	"flamingo.me/flamingo-commerce/v3/checkout"
-	"flamingo.me/flamingo-commerce/v3/order"
-	"flamingo.me/flamingo-commerce/v3/price"
-	"flamingo.me/flamingo-commerce/v3/product"
-	"flamingo.me/flamingo-commerce/v3/search"
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest"
-	projectTestGraphql "flamingo.me/flamingo-commerce/v3/test/integrationtest/projecttest/graphql"
-	"flamingo.me/flamingo-commerce/v3/w3cdatalayer"
+	"github.com/lunarforge/flamingo_commerce/breadcrumbs"
+	"github.com/lunarforge/flamingo_commerce/cart"
+	"github.com/lunarforge/flamingo_commerce/category"
+	"github.com/lunarforge/flamingo_commerce/checkout"
+	"github.com/lunarforge/flamingo_commerce/order"
+	"github.com/lunarforge/flamingo_commerce/price"
+	"github.com/lunarforge/flamingo_commerce/product"
+	"github.com/lunarforge/flamingo_commerce/search"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest"
+	projectTestGraphql "github.com/lunarforge/flamingo_commerce/test/integrationtest/projecttest/graphql"
+	"github.com/lunarforge/flamingo_commerce/w3cdatalayer"
 )
 
 // modulesDemoProject return slice of modules that we want to have in our example app for testing

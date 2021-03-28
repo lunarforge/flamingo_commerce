@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/process"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/process"
 )
 
 type (

@@ -5,15 +5,15 @@ import (
 	"flamingo.me/flamingo/v3/framework/web"
 	flamingographql "flamingo.me/graphql"
 
-	"flamingo.me/flamingo-commerce/v3/category/application"
-	"flamingo.me/flamingo-commerce/v3/category/domain"
-	"flamingo.me/flamingo-commerce/v3/category/infrastructure"
-	"flamingo.me/flamingo-commerce/v3/category/infrastructure/fake"
-	"flamingo.me/flamingo-commerce/v3/category/interfaces/controller"
-	categoryGraphql "flamingo.me/flamingo-commerce/v3/category/interfaces/graphql"
-	"flamingo.me/flamingo-commerce/v3/product"
-	productApplication "flamingo.me/flamingo-commerce/v3/product/application"
-	"flamingo.me/flamingo-commerce/v3/search"
+	"github.com/lunarforge/flamingo_commerce/category/application"
+	"github.com/lunarforge/flamingo_commerce/category/domain"
+	"github.com/lunarforge/flamingo_commerce/category/infrastructure"
+	"github.com/lunarforge/flamingo_commerce/category/infrastructure/fake"
+	"github.com/lunarforge/flamingo_commerce/category/interfaces/controller"
+	categoryGraphql "github.com/lunarforge/flamingo_commerce/category/interfaces/graphql"
+	"github.com/lunarforge/flamingo_commerce/product"
+	productApplication "github.com/lunarforge/flamingo_commerce/product/application"
+	"github.com/lunarforge/flamingo_commerce/search"
 )
 
 // Module registers our profiler

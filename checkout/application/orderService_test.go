@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/checkout/application"
-	"flamingo.me/flamingo-commerce/v3/payment/interfaces"
+	"github.com/lunarforge/flamingo_commerce/checkout/application"
+	"github.com/lunarforge/flamingo_commerce/payment/interfaces"
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/flamingo/v3/framework/web"
 )

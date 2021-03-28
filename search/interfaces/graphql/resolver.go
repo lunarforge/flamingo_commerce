@@ -2,8 +2,8 @@ package graphql
 
 import (
 	"context"
-	"flamingo.me/flamingo-commerce/v3/search/domain"
-	"flamingo.me/flamingo-commerce/v3/search/interfaces/graphql/searchdto"
+	"github.com/lunarforge/flamingo_commerce/search/domain"
+	"github.com/lunarforge/flamingo_commerce/search/interfaces/graphql/searchdto"
 )
 
 // CommerceSearchQueryResolver is a commerce search query resolver

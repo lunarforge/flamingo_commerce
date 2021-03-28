@@ -7,12 +7,12 @@ import (
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/flamingo/v3/framework/web"
 
-	cartApplication "flamingo.me/flamingo-commerce/v3/cart/application"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	graphqlDto "flamingo.me/flamingo-commerce/v3/cart/interfaces/graphql/dto"
-	"flamingo.me/flamingo-commerce/v3/checkout/application/placeorder"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/process"
-	"flamingo.me/flamingo-commerce/v3/checkout/interfaces/graphql/dto"
+	cartApplication "github.com/lunarforge/flamingo_commerce/cart/application"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	graphqlDto "github.com/lunarforge/flamingo_commerce/cart/interfaces/graphql/dto"
+	"github.com/lunarforge/flamingo_commerce/checkout/application/placeorder"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/process"
+	"github.com/lunarforge/flamingo_commerce/checkout/interfaces/graphql/dto"
 )
 
 // CommerceCheckoutMutationResolver resolves graphql checkout mutations

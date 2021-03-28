@@ -1,7 +1,7 @@
 package application
 
 import (
-	"flamingo.me/flamingo-commerce/v3/price/domain"
+	"github.com/lunarforge/flamingo_commerce/price/domain"
 
 	"flamingo.me/flamingo/v3/core/locale/application"
 	"flamingo.me/flamingo/v3/framework/config"

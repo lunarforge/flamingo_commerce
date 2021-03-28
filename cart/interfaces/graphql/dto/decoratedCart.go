@@ -1,9 +1,9 @@
 package dto
 
 import (
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	graphqlProductDto "flamingo.me/flamingo-commerce/v3/product/interfaces/graphql/product/dto"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	graphqlProductDto "github.com/lunarforge/flamingo_commerce/product/interfaces/graphql/product/dto"
 )
 
 type (

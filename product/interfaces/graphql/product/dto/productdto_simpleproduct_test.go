@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"testing"
 
-	priceDomain "flamingo.me/flamingo-commerce/v3/price/domain"
-	productDomain "flamingo.me/flamingo-commerce/v3/product/domain"
-	graphqlProductDto "flamingo.me/flamingo-commerce/v3/product/interfaces/graphql/product/dto"
+	priceDomain "github.com/lunarforge/flamingo_commerce/price/domain"
+	productDomain "github.com/lunarforge/flamingo_commerce/product/domain"
+	graphqlProductDto "github.com/lunarforge/flamingo_commerce/product/interfaces/graphql/product/dto"
 	"github.com/stretchr/testify/assert"
 )
 

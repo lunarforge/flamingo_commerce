@@ -8,19 +8,19 @@ import (
 	flamingographql "flamingo.me/graphql"
 	"github.com/go-playground/form"
 
-	"flamingo.me/flamingo-commerce/v3/checkout/infrastructure/contextstore"
-	"flamingo.me/flamingo-commerce/v3/checkout/interfaces/graphql/dto"
-	"flamingo.me/flamingo-commerce/v3/payment"
+	"github.com/lunarforge/flamingo_commerce/checkout/infrastructure/contextstore"
+	"github.com/lunarforge/flamingo_commerce/checkout/interfaces/graphql/dto"
+	"github.com/lunarforge/flamingo_commerce/payment"
 
-	"flamingo.me/flamingo-commerce/v3/cart"
-	"flamingo.me/flamingo-commerce/v3/checkout/application/placeorder"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/process"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/states"
-	"flamingo.me/flamingo-commerce/v3/checkout/infrastructure"
-	"flamingo.me/flamingo-commerce/v3/checkout/infrastructure/locker"
-	"flamingo.me/flamingo-commerce/v3/checkout/interfaces/controller"
-	"flamingo.me/flamingo-commerce/v3/checkout/interfaces/graphql"
+	"github.com/lunarforge/flamingo_commerce/cart"
+	"github.com/lunarforge/flamingo_commerce/checkout/application/placeorder"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/process"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/states"
+	"github.com/lunarforge/flamingo_commerce/checkout/infrastructure"
+	"github.com/lunarforge/flamingo_commerce/checkout/infrastructure/locker"
+	"github.com/lunarforge/flamingo_commerce/checkout/interfaces/controller"
+	"github.com/lunarforge/flamingo_commerce/checkout/interfaces/graphql"
 )
 
 type (

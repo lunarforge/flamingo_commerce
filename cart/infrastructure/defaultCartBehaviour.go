@@ -7,10 +7,10 @@ import (
 	"math/rand"
 	"strconv"
 
-	domaincart "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/events"
-	priceDomain "flamingo.me/flamingo-commerce/v3/price/domain"
-	"flamingo.me/flamingo-commerce/v3/product/domain"
+	domaincart "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/events"
+	priceDomain "github.com/lunarforge/flamingo_commerce/price/domain"
+	"github.com/lunarforge/flamingo_commerce/product/domain"
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"github.com/pkg/errors"
 )

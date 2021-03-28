@@ -3,10 +3,10 @@ package restrictors
 import (
 	"context"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/validation"
-	productDomain "flamingo.me/flamingo-commerce/v3/product/domain"
-	"flamingo.me/flamingo-commerce/v3/sourcing/application"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/validation"
+	productDomain "github.com/lunarforge/flamingo_commerce/product/domain"
+	"github.com/lunarforge/flamingo_commerce/sourcing/application"
 
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/flamingo/v3/framework/web"

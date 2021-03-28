@@ -2,7 +2,7 @@ package payment
 
 import (
 	"flamingo.me/dingo"
-	"flamingo.me/flamingo-commerce/v3/payment/interfaces"
+	"github.com/lunarforge/flamingo_commerce/payment/interfaces"
 )
 
 type (

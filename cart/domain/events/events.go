@@ -1,8 +1,8 @@
 package events
 
 import (
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
 )
 
 type (

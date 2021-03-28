@@ -3,8 +3,8 @@ package states
 import (
 	"context"
 
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/process"
-	"flamingo.me/flamingo-commerce/v3/payment/application"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/process"
+	"github.com/lunarforge/flamingo_commerce/payment/application"
 	"go.opencensus.io/trace"
 )
 

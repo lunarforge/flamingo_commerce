@@ -12,12 +12,12 @@ import (
 	"github.com/gavv/httpexpect/v2"
 	"github.com/stretchr/testify/assert"
 
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/states"
-	"flamingo.me/flamingo-commerce/v3/payment/domain"
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest"
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest/projecttest/helper"
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest/projecttest/modules/cart"
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest/projecttest/modules/placeorder"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/states"
+	"github.com/lunarforge/flamingo_commerce/payment/domain"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest/projecttest/helper"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest/projecttest/modules/cart"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest/projecttest/modules/placeorder"
 )
 
 func Test_PlaceOrderWithPaymentService(t *testing.T) {

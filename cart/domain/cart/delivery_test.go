@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	priceDomain "flamingo.me/flamingo-commerce/v3/price/domain"
+	priceDomain "github.com/lunarforge/flamingo_commerce/price/domain"
 )
 
 func TestDeliveryInfo_TotalCalculations(t *testing.T) {

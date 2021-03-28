@@ -5,9 +5,9 @@ import (
 
 	"flamingo.me/flamingo/v3/framework/flamingo"
 
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
-	productDomain "flamingo.me/flamingo-commerce/v3/product/domain"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
+	productDomain "github.com/lunarforge/flamingo_commerce/product/domain"
 )
 
 type (

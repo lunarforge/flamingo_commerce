@@ -11,12 +11,12 @@ import (
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/flamingo/v3/framework/web"
 
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/events"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/validation"
-	productDomain "flamingo.me/flamingo-commerce/v3/product/domain"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/events"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/validation"
+	productDomain "github.com/lunarforge/flamingo_commerce/product/domain"
 )
 
 // CartService application struct

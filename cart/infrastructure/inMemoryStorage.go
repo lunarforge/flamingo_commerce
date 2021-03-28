@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sync"
 
-	domaincart "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
+	domaincart "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
 )
 
 type (

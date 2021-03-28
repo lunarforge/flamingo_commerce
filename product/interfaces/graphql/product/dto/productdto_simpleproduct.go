@@ -1,6 +1,6 @@
 package graphqlproductdto
 
-import productDomain "flamingo.me/flamingo-commerce/v3/product/domain"
+import productDomain "github.com/lunarforge/flamingo_commerce/product/domain"
 
 type (
 	// SimpleProduct A simple Product without variants

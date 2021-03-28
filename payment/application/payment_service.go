@@ -3,8 +3,8 @@ package application
 import (
 	"errors"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/payment/interfaces"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/payment/interfaces"
 )
 
 type (

@@ -3,18 +3,18 @@ package controller_test
 import (
 	"context"
 	"errors"
-	"flamingo.me/flamingo-commerce/v3/category/interfaces/controller"
+	"github.com/lunarforge/flamingo_commerce/category/interfaces/controller"
 
 	"testing"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"flamingo.me/flamingo-commerce/v3/category/domain"
-	productApplication "flamingo.me/flamingo-commerce/v3/product/application"
-	searchApplication "flamingo.me/flamingo-commerce/v3/search/application"
-	searchDomain "flamingo.me/flamingo-commerce/v3/search/domain"
-	"flamingo.me/flamingo-commerce/v3/search/utils"
+	"github.com/lunarforge/flamingo_commerce/category/domain"
+	productApplication "github.com/lunarforge/flamingo_commerce/product/application"
+	searchApplication "github.com/lunarforge/flamingo_commerce/search/application"
+	searchDomain "github.com/lunarforge/flamingo_commerce/search/domain"
+	"github.com/lunarforge/flamingo_commerce/search/utils"
 )
 
 type (

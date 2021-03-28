@@ -5,10 +5,10 @@ import (
 	"errors"
 	"net/url"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
-	"flamingo.me/flamingo-commerce/v3/payment/domain"
-	"flamingo.me/flamingo-commerce/v3/payment/interfaces"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
+	"github.com/lunarforge/flamingo_commerce/payment/domain"
+	"github.com/lunarforge/flamingo_commerce/payment/interfaces"
 )
 
 const (

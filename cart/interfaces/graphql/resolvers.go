@@ -5,11 +5,11 @@ import (
 
 	"flamingo.me/flamingo/v3/framework/web"
 
-	"flamingo.me/flamingo-commerce/v3/cart/application"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/validation"
-	"flamingo.me/flamingo-commerce/v3/cart/interfaces/graphql/dto"
-	"flamingo.me/flamingo-commerce/v3/product/domain"
+	"github.com/lunarforge/flamingo_commerce/cart/application"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/validation"
+	"github.com/lunarforge/flamingo_commerce/cart/interfaces/graphql/dto"
+	"github.com/lunarforge/flamingo_commerce/product/domain"
 )
 
 // CommerceCartQueryResolver resolver for carts

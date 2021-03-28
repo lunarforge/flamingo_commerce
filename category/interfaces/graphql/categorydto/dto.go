@@ -1,8 +1,8 @@
 package categorydto
 
 import (
-	"flamingo.me/flamingo-commerce/v3/category/domain"
-	"flamingo.me/flamingo-commerce/v3/product/interfaces/graphql"
+	"github.com/lunarforge/flamingo_commerce/category/domain"
+	"github.com/lunarforge/flamingo_commerce/product/interfaces/graphql"
 )
 
 // CategorySearchResult represents category search result

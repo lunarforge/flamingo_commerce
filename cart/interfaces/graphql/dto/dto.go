@@ -1,7 +1,7 @@
 package dto
 
 import (
-	"flamingo.me/flamingo-commerce/v3/cart/interfaces/controller/forms"
+	"github.com/lunarforge/flamingo_commerce/cart/interfaces/controller/forms"
 
 	"time"
 

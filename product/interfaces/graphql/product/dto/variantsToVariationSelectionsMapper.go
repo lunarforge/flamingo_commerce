@@ -3,7 +3,7 @@ package graphqlproductdto
 import (
 	"sort"
 
-	"flamingo.me/flamingo-commerce/v3/product/domain"
+	"github.com/lunarforge/flamingo_commerce/product/domain"
 )
 
 type (

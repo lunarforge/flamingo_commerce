@@ -12,14 +12,14 @@ import (
 	"go.opencensus.io/stats"
 	"go.opencensus.io/stats/view"
 
-	"flamingo.me/flamingo-commerce/v3/cart/application"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain"
-	paymentDomain "flamingo.me/flamingo-commerce/v3/payment/domain"
-	"flamingo.me/flamingo-commerce/v3/payment/interfaces"
-	priceDomain "flamingo.me/flamingo-commerce/v3/price/domain"
+	"github.com/lunarforge/flamingo_commerce/cart/application"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain"
+	paymentDomain "github.com/lunarforge/flamingo_commerce/payment/domain"
+	"github.com/lunarforge/flamingo_commerce/payment/interfaces"
+	priceDomain "github.com/lunarforge/flamingo_commerce/price/domain"
 )
 
 type (

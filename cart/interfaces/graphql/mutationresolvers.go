@@ -5,14 +5,14 @@ import (
 	"errors"
 	"net/url"
 
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/interfaces/controller/forms"
-	cartForms "flamingo.me/flamingo-commerce/v3/cart/interfaces/controller/forms"
-	"flamingo.me/flamingo-commerce/v3/cart/interfaces/graphql/dto"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/interfaces/controller/forms"
+	cartForms "github.com/lunarforge/flamingo_commerce/cart/interfaces/controller/forms"
+	"github.com/lunarforge/flamingo_commerce/cart/interfaces/graphql/dto"
 	formApplication "flamingo.me/form/application"
 	"flamingo.me/form/domain"
 
-	"flamingo.me/flamingo-commerce/v3/cart/application"
+	"github.com/lunarforge/flamingo_commerce/cart/application"
 	"flamingo.me/flamingo/v3/framework/web"
 )
 

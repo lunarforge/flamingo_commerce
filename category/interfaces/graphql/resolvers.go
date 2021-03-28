@@ -2,13 +2,13 @@ package graphql
 
 import (
 	"context"
-	"flamingo.me/flamingo-commerce/v3/category/domain"
-	graphqlDto "flamingo.me/flamingo-commerce/v3/category/interfaces/graphql/categorydto"
-	productApplication "flamingo.me/flamingo-commerce/v3/product/application"
-	"flamingo.me/flamingo-commerce/v3/product/interfaces/graphql"
-	"flamingo.me/flamingo-commerce/v3/search/application"
-	searchDomain "flamingo.me/flamingo-commerce/v3/search/domain"
-	"flamingo.me/flamingo-commerce/v3/search/interfaces/graphql/searchdto"
+	"github.com/lunarforge/flamingo_commerce/category/domain"
+	graphqlDto "github.com/lunarforge/flamingo_commerce/category/interfaces/graphql/categorydto"
+	productApplication "github.com/lunarforge/flamingo_commerce/product/application"
+	"github.com/lunarforge/flamingo_commerce/product/interfaces/graphql"
+	"github.com/lunarforge/flamingo_commerce/search/application"
+	searchDomain "github.com/lunarforge/flamingo_commerce/search/domain"
+	"github.com/lunarforge/flamingo_commerce/search/interfaces/graphql/searchdto"
 )
 
 // CommerceCategoryQueryResolver resolves graphql category queries

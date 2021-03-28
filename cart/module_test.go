@@ -5,7 +5,7 @@ import (
 
 	"flamingo.me/flamingo/v3/framework/config"
 
-	"flamingo.me/flamingo-commerce/v3/cart"
+	"github.com/lunarforge/flamingo_commerce/cart"
 )
 
 func TestModule_Configure(t *testing.T) {

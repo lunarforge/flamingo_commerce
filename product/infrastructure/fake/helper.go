@@ -5,7 +5,7 @@ import (
 	"errors"
 	"flamingo.me/flamingo/v3/framework/flamingo"
 
-	"flamingo.me/flamingo-commerce/v3/product/domain"
+	"github.com/lunarforge/flamingo_commerce/product/domain"
 	"io/ioutil"
 	"path/filepath"
 	"strings"

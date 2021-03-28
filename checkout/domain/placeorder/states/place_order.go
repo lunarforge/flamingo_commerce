@@ -5,12 +5,12 @@ import (
 	"encoding/gob"
 	"fmt"
 
-	cartApplication "flamingo.me/flamingo-commerce/v3/cart/application"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
-	"flamingo.me/flamingo-commerce/v3/checkout/application"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/process"
-	paymentApplication "flamingo.me/flamingo-commerce/v3/payment/application"
+	cartApplication "github.com/lunarforge/flamingo_commerce/cart/application"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
+	"github.com/lunarforge/flamingo_commerce/checkout/application"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/process"
+	paymentApplication "github.com/lunarforge/flamingo_commerce/payment/application"
 	"flamingo.me/flamingo/v3/framework/web"
 	"go.opencensus.io/trace"
 )

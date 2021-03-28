@@ -2,7 +2,7 @@ package validation
 
 import (
 	"context"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
 
 	"flamingo.me/flamingo/v3/framework/web"
 )

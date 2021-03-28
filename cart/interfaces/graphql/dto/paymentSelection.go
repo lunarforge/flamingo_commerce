@@ -1,8 +1,8 @@
 package dto
 
 import (
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/price/domain"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/price/domain"
 )
 
 // PaymentSelectionSplit is a GraphQL specific representation of `cart.PaymentSplit`

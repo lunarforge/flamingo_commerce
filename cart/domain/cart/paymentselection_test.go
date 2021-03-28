@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/price/domain"
-	price "flamingo.me/flamingo-commerce/v3/price/domain"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/price/domain"
+	price "github.com/lunarforge/flamingo_commerce/price/domain"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 )

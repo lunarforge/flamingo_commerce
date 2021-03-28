@@ -2,10 +2,10 @@ package events_test
 
 import (
 	"context"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
 	"flamingo.me/flamingo/v3/framework/flamingo"
 )
 

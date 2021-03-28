@@ -1,6 +1,6 @@
 package decorator
 
-import "flamingo.me/flamingo-commerce/v3/price/domain"
+import "github.com/lunarforge/flamingo_commerce/price/domain"
 
 const (
 	decoratedGiftCardError = "Unable to collect discounts, stopping and returning empty slice"

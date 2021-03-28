@@ -3,7 +3,7 @@ package infrastructure
 import (
 	"context"
 
-	customerDomain "flamingo.me/flamingo-commerce/v3/customer/domain"
+	customerDomain "github.com/lunarforge/flamingo_commerce/customer/domain"
 	"flamingo.me/flamingo/v3/core/auth"
 )
 

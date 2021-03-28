@@ -5,17 +5,17 @@ import (
 	"net/http"
 	"net/url"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	placeorderDomain "flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
-	"flamingo.me/flamingo-commerce/v3/checkout/application"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/process"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	placeorderDomain "github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
+	"github.com/lunarforge/flamingo_commerce/checkout/application"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/process"
 
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/flamingo/v3/framework/web"
 
-	cartApplication "flamingo.me/flamingo-commerce/v3/cart/application"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	"flamingo.me/flamingo-commerce/v3/checkout/application/placeorder"
+	cartApplication "github.com/lunarforge/flamingo_commerce/cart/application"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	"github.com/lunarforge/flamingo_commerce/checkout/application/placeorder"
 )
 
 type (

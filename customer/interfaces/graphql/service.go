@@ -3,8 +3,8 @@ package graphql
 import (
 	"flamingo.me/graphql"
 
-	"flamingo.me/flamingo-commerce/v3/customer/domain"
-	"flamingo.me/flamingo-commerce/v3/customer/interfaces/graphql/dtocustomer"
+	"github.com/lunarforge/flamingo_commerce/customer/domain"
+	"github.com/lunarforge/flamingo_commerce/customer/interfaces/graphql/dtocustomer"
 )
 
 //go:generate go run github.com/go-bindata/go-bindata/v3/go-bindata -nometadata -o fs.go -pkg graphql schema.graphql

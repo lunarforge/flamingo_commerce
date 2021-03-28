@@ -8,8 +8,8 @@ import (
 
 	"flamingo.me/dingo"
 
-	"flamingo.me/flamingo-commerce/v3/product"
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest"
+	"github.com/lunarforge/flamingo_commerce/product"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest"
 	"flamingo.me/flamingo/v3/framework/config"
 )
 

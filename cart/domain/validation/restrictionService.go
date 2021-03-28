@@ -4,8 +4,8 @@ import (
 	"context"
 	"math"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/product/domain"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/product/domain"
 	"flamingo.me/flamingo/v3/framework/web"
 )
 

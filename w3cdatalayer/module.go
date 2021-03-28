@@ -4,8 +4,8 @@ import (
 	"flamingo.me/dingo"
 	"flamingo.me/flamingo/v3/framework/flamingo"
 
-	"flamingo.me/flamingo-commerce/v3/w3cdatalayer/application"
-	"flamingo.me/flamingo-commerce/v3/w3cdatalayer/interfaces/templatefunctions"
+	"github.com/lunarforge/flamingo_commerce/w3cdatalayer/application"
+	"github.com/lunarforge/flamingo_commerce/w3cdatalayer/interfaces/templatefunctions"
 )
 
 type (

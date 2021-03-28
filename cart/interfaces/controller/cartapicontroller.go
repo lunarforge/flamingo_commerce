@@ -5,17 +5,17 @@ import (
 	"net/url"
 	"strconv"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/validation"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/validation"
 
 	formDomain "flamingo.me/form/domain"
 
-	"flamingo.me/flamingo-commerce/v3/cart/interfaces/controller/forms"
+	"github.com/lunarforge/flamingo_commerce/cart/interfaces/controller/forms"
 
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/flamingo/v3/framework/web"
 
-	"flamingo.me/flamingo-commerce/v3/cart/application"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/application"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
 )
 
 type (

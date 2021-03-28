@@ -5,9 +5,9 @@ import (
 	"flamingo.me/flamingo/v3/core/auth"
 	flamingoGraphql "flamingo.me/graphql"
 
-	customerDomain "flamingo.me/flamingo-commerce/v3/customer/domain"
-	customerInfrastructure "flamingo.me/flamingo-commerce/v3/customer/infrastructure"
-	customerGraphql "flamingo.me/flamingo-commerce/v3/customer/interfaces/graphql"
+	customerDomain "github.com/lunarforge/flamingo_commerce/customer/domain"
+	customerInfrastructure "github.com/lunarforge/flamingo_commerce/customer/infrastructure"
+	customerGraphql "github.com/lunarforge/flamingo_commerce/customer/interfaces/graphql"
 )
 
 type (

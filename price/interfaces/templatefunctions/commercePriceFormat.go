@@ -2,8 +2,8 @@ package templatefunctions
 
 import (
 	"context"
-	"flamingo.me/flamingo-commerce/v3/price/application"
-	"flamingo.me/flamingo-commerce/v3/price/domain"
+	"github.com/lunarforge/flamingo_commerce/price/application"
+	"github.com/lunarforge/flamingo_commerce/price/domain"
 )
 
 // CommercePriceFormatFunc for formatting prices

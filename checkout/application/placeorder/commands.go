@@ -3,7 +3,7 @@ package placeorder
 import (
 	"net/url"
 
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
 )
 
 type (

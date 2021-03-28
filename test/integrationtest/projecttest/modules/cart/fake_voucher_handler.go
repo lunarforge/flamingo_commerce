@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	domainCart "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/infrastructure"
+	domainCart "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/infrastructure"
 )
 
 type (

@@ -2,9 +2,9 @@ package infrastructure
 
 import (
 	"context"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
 
-	"flamingo.me/flamingo-commerce/v3/checkout/domain"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain"
 	"flamingo.me/flamingo/v3/framework/web"
 )
 

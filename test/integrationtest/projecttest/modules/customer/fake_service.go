@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"flamingo.me/flamingo-commerce/v3/customer/domain"
+	"github.com/lunarforge/flamingo_commerce/customer/domain"
 	"flamingo.me/flamingo/v3/core/auth"
 )
 

@@ -4,14 +4,14 @@ import (
 	"math/big"
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/testutils"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/testutils"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
 
 	"github.com/stretchr/testify/assert"
 
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/price/domain"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/price/domain"
 )
 
 func TestCart_GetMainShippingEMail(t *testing.T) {

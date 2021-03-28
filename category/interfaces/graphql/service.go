@@ -1,8 +1,8 @@
 package graphql
 
 import (
-	"flamingo.me/flamingo-commerce/v3/category/domain"
-	"flamingo.me/flamingo-commerce/v3/category/interfaces/graphql/categorydto"
+	"github.com/lunarforge/flamingo_commerce/category/domain"
+	"github.com/lunarforge/flamingo_commerce/category/interfaces/graphql/categorydto"
 	"flamingo.me/graphql"
 )
 

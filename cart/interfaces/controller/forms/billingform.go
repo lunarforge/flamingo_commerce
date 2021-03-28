@@ -9,8 +9,8 @@ import (
 	"flamingo.me/form/application"
 	"flamingo.me/form/domain"
 
-	cartApplication "flamingo.me/flamingo-commerce/v3/cart/application"
-	customerApplication "flamingo.me/flamingo-commerce/v3/customer/application"
+	cartApplication "github.com/lunarforge/flamingo_commerce/cart/application"
+	customerApplication "github.com/lunarforge/flamingo_commerce/customer/application"
 )
 
 type (

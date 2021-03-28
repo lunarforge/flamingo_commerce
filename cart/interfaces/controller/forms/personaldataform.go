@@ -14,9 +14,9 @@ import (
 	"flamingo.me/form/domain"
 	"github.com/go-playground/form"
 
-	cartApplication "flamingo.me/flamingo-commerce/v3/cart/application"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	customerApplication "flamingo.me/flamingo-commerce/v3/customer/application"
+	cartApplication "github.com/lunarforge/flamingo_commerce/cart/application"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	customerApplication "github.com/lunarforge/flamingo_commerce/customer/application"
 )
 
 type (

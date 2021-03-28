@@ -10,7 +10,7 @@ import (
 	"github.com/gomodule/redigo/redis"
 	"go.opencensus.io/trace"
 
-	"flamingo.me/flamingo-commerce/v3/checkout/application/placeorder"
+	"github.com/lunarforge/flamingo_commerce/checkout/application/placeorder"
 )
 
 type (

@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	priceDomain "flamingo.me/flamingo-commerce/v3/price/domain"
+	priceDomain "github.com/lunarforge/flamingo_commerce/price/domain"
 
 	"flamingo.me/form/domain"
 
@@ -13,8 +13,8 @@ import (
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/flamingo/v3/framework/web"
 
-	cartApplication "flamingo.me/flamingo-commerce/v3/cart/application"
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
+	cartApplication "github.com/lunarforge/flamingo_commerce/cart/application"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
 )
 
 type (

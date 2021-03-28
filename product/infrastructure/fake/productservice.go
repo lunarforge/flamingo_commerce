@@ -15,8 +15,8 @@ import (
 
 	"flamingo.me/flamingo/v3/framework/flamingo"
 
-	priceDomain "flamingo.me/flamingo-commerce/v3/price/domain"
-	"flamingo.me/flamingo-commerce/v3/product/domain"
+	priceDomain "github.com/lunarforge/flamingo_commerce/price/domain"
+	"github.com/lunarforge/flamingo_commerce/product/domain"
 )
 
 var (

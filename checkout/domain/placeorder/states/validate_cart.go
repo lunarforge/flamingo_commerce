@@ -6,8 +6,8 @@ import (
 	"flamingo.me/flamingo/v3/framework/web"
 	"go.opencensus.io/trace"
 
-	"flamingo.me/flamingo-commerce/v3/cart/application"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/process"
+	"github.com/lunarforge/flamingo_commerce/cart/application"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/process"
 )
 
 type (

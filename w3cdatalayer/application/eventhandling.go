@@ -3,13 +3,13 @@ package application
 import (
 	"context"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/events"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/events"
 	"flamingo.me/flamingo/v3/core/auth"
 
 	"flamingo.me/flamingo/v3/framework/web"
 
-	"flamingo.me/flamingo-commerce/v3/w3cdatalayer/domain"
+	"github.com/lunarforge/flamingo_commerce/w3cdatalayer/domain"
 	"flamingo.me/flamingo/v3/framework/flamingo"
 )
 

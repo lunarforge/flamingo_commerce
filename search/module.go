@@ -2,8 +2,8 @@ package search
 
 import (
 	"flamingo.me/dingo"
-	"flamingo.me/flamingo-commerce/v3/search/interfaces"
-	searchgraphql "flamingo.me/flamingo-commerce/v3/search/interfaces/graphql"
+	"github.com/lunarforge/flamingo_commerce/search/interfaces"
+	searchgraphql "github.com/lunarforge/flamingo_commerce/search/interfaces/graphql"
 	"flamingo.me/flamingo/v3/framework/web"
 	"flamingo.me/graphql"
 )

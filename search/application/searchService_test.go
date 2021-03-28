@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/search/domain"
+	"github.com/lunarforge/flamingo_commerce/search/domain"
 )
 
 func TestBuildFilters(t *testing.T) {

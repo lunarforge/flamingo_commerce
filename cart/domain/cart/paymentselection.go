@@ -9,7 +9,7 @@ import (
 
 	"github.com/google/uuid"
 
-	price "flamingo.me/flamingo-commerce/v3/price/domain"
+	price "github.com/lunarforge/flamingo_commerce/price/domain"
 )
 
 const (

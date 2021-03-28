@@ -3,8 +3,8 @@ package controller
 import (
 	"context"
 
-	"flamingo.me/flamingo-commerce/v3/product/application"
-	"flamingo.me/flamingo-commerce/v3/product/domain"
+	"github.com/lunarforge/flamingo_commerce/product/application"
+	"github.com/lunarforge/flamingo_commerce/product/domain"
 	"flamingo.me/flamingo/v3/framework/web"
 	"github.com/pkg/errors"
 )

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"flamingo.me/flamingo-commerce/v3/price/domain"
-	priceDomain "flamingo.me/flamingo-commerce/v3/price/domain"
+	"github.com/lunarforge/flamingo_commerce/price/domain"
+	priceDomain "github.com/lunarforge/flamingo_commerce/price/domain"
 	"github.com/stretchr/testify/assert"
 )
 

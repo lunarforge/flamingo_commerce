@@ -11,8 +11,8 @@ import (
 	"flamingo.me/form/application"
 	"flamingo.me/form/domain"
 
-	cartApplication "flamingo.me/flamingo-commerce/v3/cart/application"
-	cartInterfaceForms "flamingo.me/flamingo-commerce/v3/cart/interfaces/controller/forms"
+	cartApplication "github.com/lunarforge/flamingo_commerce/cart/application"
+	cartInterfaceForms "github.com/lunarforge/flamingo_commerce/cart/interfaces/controller/forms"
 )
 
 type (

@@ -14,7 +14,7 @@ import (
 	"github.com/gomodule/redigo/redis"
 	"go.opencensus.io/trace"
 
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/process"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/process"
 )
 
 type (

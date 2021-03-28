@@ -10,16 +10,16 @@ import (
 	"strconv"
 	"strings"
 
-	customerDomain "flamingo.me/flamingo-commerce/v3/customer/domain"
+	customerDomain "github.com/lunarforge/flamingo_commerce/customer/domain"
 	"flamingo.me/flamingo/v3/core/auth"
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"flamingo.me/flamingo/v3/framework/web"
 	"github.com/pkg/errors"
 	"go.opencensus.io/tag"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/decorator"
-	productDomain "flamingo.me/flamingo-commerce/v3/product/domain"
-	"flamingo.me/flamingo-commerce/v3/w3cdatalayer/domain"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/decorator"
+	productDomain "github.com/lunarforge/flamingo_commerce/product/domain"
+	"github.com/lunarforge/flamingo_commerce/w3cdatalayer/domain"
 )
 
 type (

@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	domaincart "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	priceDomain "flamingo.me/flamingo-commerce/v3/price/domain"
+	domaincart "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	priceDomain "github.com/lunarforge/flamingo_commerce/price/domain"
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"github.com/go-test/deep"
 	"github.com/stretchr/testify/assert"

@@ -3,7 +3,7 @@ package dto
 import (
 	"context"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
 )
 
 // CartAppliedDiscounts DTO for cart.AppliedDiscounts

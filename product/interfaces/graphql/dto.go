@@ -1,11 +1,11 @@
 package graphql
 
 import (
-	"flamingo.me/flamingo-commerce/v3/product/application"
-	graphqlProductDto "flamingo.me/flamingo-commerce/v3/product/interfaces/graphql/product/dto"
-	searchdomain "flamingo.me/flamingo-commerce/v3/search/domain"
-	"flamingo.me/flamingo-commerce/v3/search/interfaces/graphql/searchdto"
-	"flamingo.me/flamingo-commerce/v3/search/utils"
+	"github.com/lunarforge/flamingo_commerce/product/application"
+	graphqlProductDto "github.com/lunarforge/flamingo_commerce/product/interfaces/graphql/product/dto"
+	searchdomain "github.com/lunarforge/flamingo_commerce/search/domain"
+	"github.com/lunarforge/flamingo_commerce/search/interfaces/graphql/searchdto"
+	"github.com/lunarforge/flamingo_commerce/search/utils"
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"sort"
 )

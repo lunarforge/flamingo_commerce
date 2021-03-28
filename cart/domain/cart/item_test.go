@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	priceDomain "flamingo.me/flamingo-commerce/v3/price/domain"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	priceDomain "github.com/lunarforge/flamingo_commerce/price/domain"
 )
 
 func TestItem_PriceCalculation(t *testing.T) {

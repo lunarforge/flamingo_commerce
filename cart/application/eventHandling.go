@@ -9,7 +9,7 @@ import (
 
 	"flamingo.me/flamingo/v3/framework/flamingo"
 
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
 )
 
 type (

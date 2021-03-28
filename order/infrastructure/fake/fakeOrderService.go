@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"flamingo.me/flamingo-commerce/v3/order/domain"
+	"github.com/lunarforge/flamingo_commerce/order/domain"
 	"flamingo.me/flamingo/v3/core/auth"
 )
 

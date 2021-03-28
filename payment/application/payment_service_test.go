@@ -3,11 +3,11 @@ package application_test
 import (
 	"testing"
 
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/payment/application"
-	"flamingo.me/flamingo-commerce/v3/payment/interfaces"
-	"flamingo.me/flamingo-commerce/v3/payment/interfaces/mocks"
-	"flamingo.me/flamingo-commerce/v3/price/domain"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/payment/application"
+	"github.com/lunarforge/flamingo_commerce/payment/interfaces"
+	"github.com/lunarforge/flamingo_commerce/payment/interfaces/mocks"
+	"github.com/lunarforge/flamingo_commerce/price/domain"
 	"github.com/stretchr/testify/assert"
 )
 

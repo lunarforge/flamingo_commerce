@@ -4,9 +4,9 @@ import (
 	"context"
 	"strconv"
 
-	searchDomain "flamingo.me/flamingo-commerce/v3/search/domain"
+	searchDomain "github.com/lunarforge/flamingo_commerce/search/domain"
 
-	"flamingo.me/flamingo-commerce/v3/product/domain"
+	"github.com/lunarforge/flamingo_commerce/product/domain"
 )
 
 // SearchService is just mocking stuff

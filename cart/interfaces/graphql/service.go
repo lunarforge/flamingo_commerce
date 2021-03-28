@@ -3,11 +3,11 @@ package graphql
 import (
 	"context"
 
-	"flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/validation"
-	"flamingo.me/flamingo-commerce/v3/cart/interfaces/controller/forms"
-	"flamingo.me/flamingo-commerce/v3/cart/interfaces/graphql/dto"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/validation"
+	"github.com/lunarforge/flamingo_commerce/cart/interfaces/controller/forms"
+	"github.com/lunarforge/flamingo_commerce/cart/interfaces/graphql/dto"
 	formDomain "flamingo.me/form/domain"
 	"flamingo.me/graphql"
 )

@@ -10,15 +10,15 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	cartDomain "flamingo.me/flamingo-commerce/v3/cart/domain/cart"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/process"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/states"
-	"flamingo.me/flamingo-commerce/v3/payment/application"
-	"flamingo.me/flamingo-commerce/v3/payment/domain"
-	"flamingo.me/flamingo-commerce/v3/payment/interfaces"
-	"flamingo.me/flamingo-commerce/v3/payment/interfaces/mocks"
-	price "flamingo.me/flamingo-commerce/v3/price/domain"
+	cartDomain "github.com/lunarforge/flamingo_commerce/cart/domain/cart"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/process"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/states"
+	"github.com/lunarforge/flamingo_commerce/payment/application"
+	"github.com/lunarforge/flamingo_commerce/payment/domain"
+	"github.com/lunarforge/flamingo_commerce/payment/interfaces"
+	"github.com/lunarforge/flamingo_commerce/payment/interfaces/mocks"
+	price "github.com/lunarforge/flamingo_commerce/price/domain"
 )
 
 func TestCreatePayment_Run(t *testing.T) {

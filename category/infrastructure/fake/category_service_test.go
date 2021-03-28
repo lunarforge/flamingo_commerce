@@ -7,8 +7,8 @@ import (
 	"flamingo.me/flamingo/v3/framework/flamingo"
 	"github.com/stretchr/testify/assert"
 
-	"flamingo.me/flamingo-commerce/v3/category/domain"
-	"flamingo.me/flamingo-commerce/v3/category/infrastructure/fake"
+	"github.com/lunarforge/flamingo_commerce/category/domain"
+	"github.com/lunarforge/flamingo_commerce/category/infrastructure/fake"
 )
 
 func TestCategoryService_Tree(t *testing.T) {

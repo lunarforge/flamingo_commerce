@@ -2,12 +2,12 @@ package sourcing
 
 import (
 	"flamingo.me/dingo"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/validation"
-	restrictors "flamingo.me/flamingo-commerce/v3/sourcing/domain/restrictor"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/validation"
+	restrictors "github.com/lunarforge/flamingo_commerce/sourcing/domain/restrictor"
 
-	"flamingo.me/flamingo-commerce/v3/cart"
-	"flamingo.me/flamingo-commerce/v3/sourcing/application"
-	"flamingo.me/flamingo-commerce/v3/sourcing/domain"
+	"github.com/lunarforge/flamingo_commerce/cart"
+	"github.com/lunarforge/flamingo_commerce/sourcing/application"
+	"github.com/lunarforge/flamingo_commerce/sourcing/domain"
 )
 
 type (

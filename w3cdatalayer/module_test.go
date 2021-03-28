@@ -3,7 +3,7 @@ package w3cdatalayer_test
 import (
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/w3cdatalayer"
+	"github.com/lunarforge/flamingo_commerce/w3cdatalayer"
 	"flamingo.me/flamingo/v3/framework/config"
 )
 

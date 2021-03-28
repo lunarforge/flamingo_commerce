@@ -12,8 +12,8 @@ import (
 
 	"flamingo.me/flamingo/v3/framework/config"
 
-	"flamingo.me/flamingo-commerce/v3/checkout"
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest"
+	"github.com/lunarforge/flamingo_commerce/checkout"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest"
 )
 
 func Test_CheckoutStartPage(t *testing.T) {

@@ -5,9 +5,9 @@ package restapi_test
 import (
 	"testing"
 
-	"flamingo.me/flamingo-commerce/v3/checkout/application/placeorder"
-	"flamingo.me/flamingo-commerce/v3/checkout/domain/placeorder/states"
-	"flamingo.me/flamingo-commerce/v3/test/integrationtest"
+	"github.com/lunarforge/flamingo_commerce/checkout/application/placeorder"
+	"github.com/lunarforge/flamingo_commerce/checkout/domain/placeorder/states"
+	"github.com/lunarforge/flamingo_commerce/test/integrationtest"
 )
 
 func Test_Checkout_SimplePlaceOrderProcess(t *testing.T) {

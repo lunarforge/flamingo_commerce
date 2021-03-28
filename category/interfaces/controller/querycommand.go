@@ -7,12 +7,12 @@ import (
 
 	"flamingo.me/flamingo/v3/framework/web"
 
-	"flamingo.me/flamingo-commerce/v3/category/domain"
-	productApplication "flamingo.me/flamingo-commerce/v3/product/application"
+	"github.com/lunarforge/flamingo_commerce/category/domain"
+	productApplication "github.com/lunarforge/flamingo_commerce/product/application"
 
-	searchApplication "flamingo.me/flamingo-commerce/v3/search/application"
-	searchDomain "flamingo.me/flamingo-commerce/v3/search/domain"
-	"flamingo.me/flamingo-commerce/v3/search/utils"
+	searchApplication "github.com/lunarforge/flamingo_commerce/search/application"
+	searchDomain "github.com/lunarforge/flamingo_commerce/search/domain"
+	"github.com/lunarforge/flamingo_commerce/search/utils"
 )
 
 type (

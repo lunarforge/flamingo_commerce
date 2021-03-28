@@ -1,9 +1,9 @@
 package graphql
 
 import (
-	"flamingo.me/flamingo-commerce/v3/search/application"
-	"flamingo.me/flamingo-commerce/v3/search/domain"
-	"flamingo.me/flamingo-commerce/v3/search/interfaces/graphql/searchdto"
+	"github.com/lunarforge/flamingo_commerce/search/application"
+	"github.com/lunarforge/flamingo_commerce/search/domain"
+	"github.com/lunarforge/flamingo_commerce/search/interfaces/graphql/searchdto"
 	"flamingo.me/graphql"
 )
 

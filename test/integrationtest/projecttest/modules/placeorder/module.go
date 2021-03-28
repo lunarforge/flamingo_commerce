@@ -2,7 +2,7 @@ package placeorder
 
 import (
 	"flamingo.me/dingo"
-	"flamingo.me/flamingo-commerce/v3/cart/domain/placeorder"
+	"github.com/lunarforge/flamingo_commerce/cart/domain/placeorder"
 )
 
 type (
