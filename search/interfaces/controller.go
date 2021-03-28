@@ -5,10 +5,10 @@ import (
 	"net/url"
 	"strconv"
 
+	"flamingo.me/flamingo/v3/framework/web"
 	"github.com/lunarforge/flamingo_commerce/search/application"
 	"github.com/lunarforge/flamingo_commerce/search/domain"
 	"github.com/lunarforge/flamingo_commerce/search/utils"
-	"flamingo.me/flamingo/v3/framework/web"
 )
 
 type (
@@ -38,7 +38,19 @@ func (vc *ViewController) Inject(responder *web.Responder,
 	return vc
 }
 
-// Get Response for search
+//http://localhost:3210/en/search/products?category=flat-screen_tvs&q=knapsack
+//registry.Route("/search/:type", `search.search(type, *)`)
+//registry.Route("/search", `search.search`)
+
+// Get Response for Search matching :type param based on query q
+// @Summary Searches for requested items
+// @Tags  Search Products Category
+// @Produce json
+// @Success 200 {object} APIResult{product=domain.SimpleProduct}
+// @Failure 500 {object} APIResult
+// @Failure 404 {object} APIResult
+// @Param type path string true "search selection type"
+// @Router /search/{type} [get]
 func (vc *ViewController) Get(c context.Context, r *web.Request) web.Result {
 	query, _ := r.Query1("q")
 
